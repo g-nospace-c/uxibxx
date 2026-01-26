@@ -1,0 +1,5 @@
+USB_VIDPID_FOR_MODEL = {
+    "UXIB-DN12": (0x4743, 0xB499),
+    "UXIB-SHF4": (0x4743, 0xB49A),
+    "UXIB-LJPM": (0x4743, 0xB49B),
+    }

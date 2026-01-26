@@ -10,7 +10,7 @@ The content of the usage example from the documentation can also be found direct
 
 ## Requirements
 The `uxibxx` package requires:
-- Python >= 3.6
+- Python >= 3.10
 - `pyserial` >= 3.5 (earlier versions may work, not tested).
 
 Building the documentation additionally requires `sphinx` and GNU Make.
