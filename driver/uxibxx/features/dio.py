@@ -189,6 +189,11 @@ class DigitalIo(_DigitalIoBase):
         else:
             tb_freq = 1. / self.seconds_per_tick
         self._tell(f"OUP:{n}={int(bool(on))},{round(interval * tb_freq)}")
+        if wait:
+            while True:
+                set_val, ticks_rem = self._ask(f"OUP:{n}", (int, int))
+                if not ticks_rem:
+                    break
 
 
     def get_direction(self, n: int) -> 'types.IoDirection':

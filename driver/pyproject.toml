@@ -13,7 +13,7 @@ include = [
 
 [project]
 name = "uxibxx-io-board"
-version = "0.4.2"
+version = "0.4.3"
 
 readme = "README.md"
 requires-python = ">=3.10"
