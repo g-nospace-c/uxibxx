@@ -17,6 +17,3 @@ See the `README.md` in each subdirectory for further information.
 ## Licenses
 Software source code is licensed under the BSD 3-Clause License. Hardware design files are licensed under CERN-OHL-W.
 See the `LICENSE` file in each subdirectory for a copy of the applicable license terms.
-
-## Support
-This project is maintained by Greg Courville of the Bioengineering Platform at Chan Zuckerberg Biohub San Francisco.
